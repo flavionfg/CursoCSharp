@@ -14,6 +14,12 @@ namespace CursoCSharp.Fundamentos
             //Cuidado com os comentarios desnecessarios
             Console.WriteLine("Código Claro é sempre melhor!");
 
+            /*
+             * Esse é um comentario
+             * de multiplas linhas...
+             * 
+             */
+
             Console.WriteLine("o C# tem o XML Comments");
         }
     }
