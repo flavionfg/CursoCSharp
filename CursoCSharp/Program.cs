@@ -62,6 +62,7 @@ namespace CursoCSharp {
                 {"Array - Coleções", Colecoes.Array.Executar}, //aqui colocamos dessa maneira pois ja existe uma classe array no System.Array.
                 {"List - Coleções", ColecoesList.Executar},
                 {"ArrayList - Coleções", ColecoesArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
             });
 
             central.SelecionarEExecutar();
