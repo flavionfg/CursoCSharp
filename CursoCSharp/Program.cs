@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -56,6 +57,9 @@ namespace CursoCSharp {
                 {"Valor Vs Referencia - Classes e Métodos", ValorVsReferencia.Executar},
                 {"Parâmetros Por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
                 {"Parâmetro com valor Padrão - Classes e Métodos", ParametrosPadrao.Executar},
+                
+                //Coleções
+                {"Array - Coleções", Colecoes.Array.Executar}, //aqui colocamos dessa maneira pois ja existe uma classe array no System.Array.
             });
 
             central.SelecionarEExecutar();
