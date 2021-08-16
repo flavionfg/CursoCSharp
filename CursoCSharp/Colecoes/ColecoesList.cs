@@ -14,6 +14,28 @@ namespace CursoCSharp.Colecoes
             Nome = nome;
             Preco = preco;
         }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        /*
+         * Método do Professor
+        public override bool Equals(object obj)
+        {
+            Produto outroProduto = (Produto)obj; //cast
+            bool mesmoNome = Nome == outroProduto.Nome;
+            bool mesmoPreco = Preco == outroProduto.Preco;
+            return mesmoNome && mesmoPreco;
+        }
+        */
+
     }
     class ColecoesList{
         public static void Executar() {
