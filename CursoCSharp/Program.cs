@@ -82,6 +82,7 @@ namespace CursoCSharp {
                 {"Exemplo Lambda - Métodos e Funcões", ExemploLambda.Executar},
                 {"Lambda Como Delegates - Métodos e Funcões", LambdasDelegate.Executar},
                 {"Usando Delegates - Métodos e Funcões", UsandoDelegates.Executar},
+                {"Delegate Como Função Anonima - Métodos e Funções", DelegateFunAnonima.Executar},
             });
 
             central.SelecionarEExecutar();
