@@ -74,6 +74,7 @@ namespace CursoCSharp {
                 {"Construtor This - OO", ConstrutorThis.Executar},
                 {"Encapsulamento - OO", OO.Encapsulamento.Executar},
                 {"Classe Abstrata - OO", Abstract.Executar},
+                {"Interface - OO", Interface.Executar},
             });
 
             central.SelecionarEExecutar();
